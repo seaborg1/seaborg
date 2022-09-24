@@ -4,7 +4,9 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "<h1>HELLO! This is the main page for my website./n/nGoodbye<h1>"
+    return "<h1>HELLO! This is the main page for my website.<h1>"
+    return print()
+    return "<h1> The website is still heavily under development. Check back soon! <h1>"
 
 @app.route("/admin")
 def admin():
