@@ -16,7 +16,7 @@ def haruka():
 def kale():
     return "<h1> Wassup Kayle <h1>"
 
-@app.route("/one kiss")
+@app.route("/one-kiss")
 def one_kiss():
     return 
 """<h1> For Ethan and Daniel: <h1> One kiss is all it takes
