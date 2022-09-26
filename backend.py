@@ -8,6 +8,14 @@ def home():
     return " "
     return "<h1> The website is still heavily under development. Check back soon! <h1>"
 
+@app.route("/haruka")
+def haruka():
+    return "<h1> Hello Haruka! <h1>"
+
+@app.route("/kale")
+def kale():
+    return "<h1> Wassup Kale <h1>"
+
 @app.route("/admin")
 def admin():
     return "<h1> HOLA! You found the admin page <h1>"
