@@ -18,7 +18,8 @@ def kale():
 
 @app.route("/one kiss")
 def one_kiss():
-    return """"<h1> For Ethan and Daniel: <h1> One kiss is all it takes
+    return 
+"""<h1> For Ethan and Daniel: <h1> One kiss is all it takes
 Fallin' in love with me
 Possibilities
 I look like all you need
@@ -77,7 +78,7 @@ One
 One
 One
 One
-""""
+"""
 
 @app.route("/admin")
 def admin():
