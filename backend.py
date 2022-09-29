@@ -25,4 +25,4 @@ def admin():
     return "<h1> HOLA! You found the admin page <h1>"
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0')
+    app.run(host='164.92.75.123')
